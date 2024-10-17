@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderDeb/Project_Stack_MERN.git"
+  },
+  "author": "AlexanderDeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderDeb/Project_Stack_MERN/issues"
+  },
+  "homepage": "https://github.com/alexanderDeb/Project_Stack_MERN#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
