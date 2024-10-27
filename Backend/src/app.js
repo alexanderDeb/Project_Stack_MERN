@@ -12,9 +12,9 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 
-app.use("/api", RecipeRouter);
-app.use("/api", UserRouter);
-app.use("/api", ProductRouter);
+app.use(RecipeRouter);
+app.use(UserRouter);
+app.use(ProductRouter);
 
 ConnectDB();
 app.listen(8000);
