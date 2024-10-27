@@ -5,8 +5,7 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "node src/app.js",
-    "build": "node src/app.js build --output public"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
