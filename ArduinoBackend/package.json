@@ -1,0 +1,26 @@
+{
+  "name": "arduinobackend",
+  "version": "1.0.0",
+  "description": "this is a project of a supermarket car automatic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderDeb/ArduinoProject.git"
+  },
+  "author": "AlexanderDeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderDeb/ArduinoProject/issues"
+  },
+  "homepage": "https://github.com/alexanderDeb/ArduinoProject#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3",
+    "morgan": "^1.10.0",
+    "vercel": "^37.8.0"
+  }
+}
